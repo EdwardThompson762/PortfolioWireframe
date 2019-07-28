@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color:grey;
+  }
+  
+  h1 {
+    display:flex;
+    flex-direction: column;
+    font-size:34px;
+    border-bottom: 1px solid black;
+    margin-top:5%;
+  }
+  
+  .biography {
+    margin: auto;
+    font-size:22px;
+    border: 1px solid black;
+    float:none;
+    padding:5px;
+    width: 600px;
+    height:400px;
+   
+  
+  }
+  
+  .projects {
+    float:left;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    height: 150px;
+    
+  }
+  
+  .contactInfo {
+    float:right;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    height: 150px;
+  }
